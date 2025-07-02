@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Actu Fortnite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f23;
+      color: white;
+    }
+    header {
+      background: url('https://cdn2.unrealengine.com/Fortnite%2Fchapter-5%2Fs5-launch%2Fwebsite%2F05_C5S3_Overview_Launcher_Blade-1920x1080-2de3e3d3b28f.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+    h2 {
+      color: #FFD700;
+    }
+    .card {
+      background: #1c1c3a;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px 0;
+    }
+    a {
+      color: #4dc8ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Fortnite_logo.png" alt="Fortnite Logo" />
+    <h1>Actu Fortnite</h1>
+    <p>La boutique, les compétitions et toutes les actus du jeu !</p>
+  </header>
+
+  <section>
+    <h2>🛒 Boutique du Jour</h2>
+    <div class="card">
+      <p>Voici les skins et objets disponibles aujourd'hui :</p>
+      <ul>
+        <li>💥 Skin Dark Bomber</li>
+        <li>🔫 Arme légendaire - Scar dorée</li>
+        <li>🧊 Emote Freeze</li>
+        <li>🌟 Planeur Galaxy</li>
+      </ul>
+      <p><a href="https://fnbr.co/shop" target="_blank">Voir la boutique complète</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🏆 Compétitions</h2>
+    <div class="card">
+      <p>🎮 La prochaine Coupe Cash se déroule le 5 juillet à 18h.</p>
+      <p>🔥 Ne manque pas le Championnat FNCS cet été !</p>
+      <p><a href="https://www.fortnite.com/competitive" target="_blank">Plus d'infos sur les compétitions</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>📰 Actualité Fortnite</h2>
+    <div class="card">
+      <p>📢 Mise à jour 30.20 déployée le 1er juillet :</p>
+      <ul>
+        <li>Nouveau mode "Courses déjantées"</li>
+        <li>Ajout du skin Terminator en collaboration spéciale</li>
+        <li>Rééquilibrage du fusil à pompe</li>
+      </ul>
+      <p><a href="https://fortnite.com/news" target="_blank">Lire toutes les news officielles</a></p>
+    </div>
+  </section>
+
+</body>
+</html>
